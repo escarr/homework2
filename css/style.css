@@ -1,0 +1,92 @@
+body {
+  font-family: "Lucida Grande", "sans-serif";
+  color: white; 
+  background-color: black;
+  /* Default text is Lucida Grande font with a sans-serif as a fallback option. */
+  /* All text is white on a black background */
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  /* Header 1 is 64px, centered */  
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 2px #808080;
+  /* Header 2 is 30px, with grey (#808080) drop shadow that is offset 5px horizontally, 5px vertically, and 2px blur  */
+}
+
+p {
+  font-size: 24px;
+  padding-top: 20px;
+  /* Paragraphs use 24px font and have 20px padding on the top only */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 525px;
+  /* Images match the following styles:
+    All images are on their own line
+    All images are centered 
+    All images are 525px wide with proper aspect ratio (they are not warped or stretched)
+  */
+}
+
+div {
+  min-height: 150px;
+  padding: 25px;
+  /* All divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides. */
+}
+
+#red {
+  background-color: red;
+  text-align: right;
+  /* Red div has the following styles:
+    Background color is red
+    Text is aligned on the right side */
+}
+
+#blue {
+  background-color: blue;
+  text-align: left;
+  /* Blue div has the following styles:
+    Background color is blue
+    Text is aligned on the left side*/
+}
+
+#yellow {
+    background-color: yellow;
+    text-align: right;
+  /* Yellow div has the following styles:
+    Background color is yellow
+    Text is aligned on the right side
+    Header 2 and paragraph text is black
+    Header 2 drop shadow is #c7e2c7 with the same parameters as above */
+}
+
+#yellow h2, #yellow p {
+  color: black;
+}
+
+#yellow h2 {
+  text-shadow: 5px 5px 2px #c7e2c7;
+}
+
+#green {
+  background-color: green;
+  text-align: left;
+  /* Green div has the following styles:
+    Background color is green
+    Text is aligned on the left side */
+}
+
+footer {
+  text-align: right;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* Footer text is right-aligned with 10px padding on the bottom and right only */
+}
